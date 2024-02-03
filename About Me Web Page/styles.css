@@ -1,0 +1,100 @@
+body {
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    height: 100%;
+    background-image: url("background.jpg");
+    text-align: center;
+}
+
+.mainpage {
+    background-color: black;
+    display: block;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+h2 {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+p {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+table {
+    color: black;
+    border: 5px solid white;
+    border-collapse: collapse;
+    width: 600px;
+    margin-left: 25px;
+}
+
+td, th {;
+    text-align: center;
+}
+
+th {
+    color: white;
+    border-left: 2px solid white;
+}
+
+.times {
+    color: white;
+    border-top: 2px solid white;
+}
+
+.gym {
+    background-color: #6562b3;
+    border: 2px solid black;
+}
+
+.work {
+    background-color: #FFFFFF;
+    border: 2px solid black;
+}
+
+.math {
+    background-color: #5ebbe6;
+    border: 2px solid black;
+}
+
+.geog {
+    background-color: #95c5db;
+    border: 2px solid black;
+}
+
+.cs1 {
+    background-color: #838cf2;
+    border: 2px solid black;
+}
+
+.cs2 {
+    background-color: #75d6ff;
+    border: 2px solid black;
+}
+
+.headshot-container {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    padding-right: 50px;
+    padding-top: 50px;
+    float: right;
+}
+
+.headshot {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
